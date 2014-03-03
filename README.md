@@ -1,3 +1,7 @@
 BUSINESS-AND-STUFF
 ==================
-hey ya
+def write_it():
+    outfile = open("helo.txt", 'w')
+    thing = input("Type some shit: ")
+    outfile.write(thing)
+    outfile.close()
