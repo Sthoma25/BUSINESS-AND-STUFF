@@ -5,3 +5,4 @@ def write_it():
     thing = input("Type some shit: ")
     outfile.write(thing)
     outfile.close()
+# I'm editing, and I'm not John
